@@ -112,7 +112,7 @@ function BillScreen({ onConfirm }) {
               onClick={() => setSelectedTip(percentage)}
               style={{
                 padding: "12px 20px",
-                fontSize: "1.1rem",
+                fontSize: "1.0rem",
                 backgroundColor: selectedTip === percentage ? "#2196F3" : "#D3D3D3",
                 color: "#fff",
                 border: "none",
@@ -128,7 +128,7 @@ function BillScreen({ onConfirm }) {
             onClick={() => setSelectedTip("custom")}
             style={{
               padding: "12px 20px",
-              fontSize: "1.1rem",
+              fontSize: "1.0rem",
               backgroundColor: selectedTip === "custom" ? "#2196F3" : "#D3D3D3",
               color: "#fff",
               border: "none",
